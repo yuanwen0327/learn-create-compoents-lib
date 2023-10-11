@@ -1,0 +1,13 @@
+.gie-richtext{
+  flex: 1;
+  &__control{
+    border: 1px solid #aaa;
+    background: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    min-height: 100px;
+    .is-error & {
+      border-color: red;
+    }
+  }
+}
