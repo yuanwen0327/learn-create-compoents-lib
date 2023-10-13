@@ -21,7 +21,9 @@ export default defineConfig(() => {
             // 打包目录和开发目录对应
             preserveModules: true,
             // 输出目录
-            dir: 'es'
+            dir: 'es',
+            // 指定保留模块结构的根目录
+            preserveModulesRoot: 'src',
           },
           {
             // 打包成 commonjs
@@ -31,7 +33,9 @@ export default defineConfig(() => {
             // 打包目录和开发目录对应
             preserveModules: true,
             // 输出目录
-            dir: 'lib'
+            dir: 'lib',
+            // 指定保留模块结构的根目录
+            preserveModulesRoot: 'src',
           },
         ],
       },
